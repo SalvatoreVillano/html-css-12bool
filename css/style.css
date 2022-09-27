@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --blue: #006cfa;
+    --green: #00E165;
+}
+
+body {
+    color: var(--white)
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 100%;
+    width: 100%;
+}
+
+.box {
+    height: 50px;
+    background-color: var(--blue);
+    border: 2px solid var(--white);
+    text-align: center;
+    padding: 10px;
+}
+
+.box-container {
+    background-color: var(--blue);
+    padding: 10px;
+    border: 2px solid var(--white);
+    
+}
+
+.box-inner {
+    background-color: var(--green);
+    text-align: center;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
